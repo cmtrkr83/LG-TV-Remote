@@ -14,11 +14,14 @@
 </p>
 
 <p align="center">
+  <a href="https://www.buymeacoffee.com/cmtrkr"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/cmtrkr83/LG-TV-Kumandasi/releases/latest"><img src="https://img.shields.io/github/v/release/cmtrkr83/LG-TV-Kumandasi?style=flat-square&color=22c55e" alt="Latest release"></a>
   <a href="https://github.com/cmtrkr83/LG-TV-Kumandasi/releases/latest/download/netcast-remote.apk"><img src="https://img.shields.io/badge/Android-APK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android APK"></a>
   <a href="#supported-tvs"><img src="https://img.shields.io/badge/LG%20NetCast-3.0%20%7C%204.0-0ea5e9?style=flat-square" alt="LG NetCast 3.0 and 4.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license"></a>
-  <a href="https://www.buymeacoffee.com/cmtrkr"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
 </p>
 
 <p align="center">
@@ -29,6 +32,17 @@
 **LG TV Remote** is an open-source Android app for controlling older LG smart TVs over the local network. It speaks the **LG NetCast ROAP** protocol directly, discovers TVs with **SSDP**, and keeps working without a cloud service in the middle.
 
 The app is called **NetCast Kumanda** on your phone. It is built for LG NetCast 3.0 and 4.0 televisions, the generations that use the ROAP HTTP/XML API on port 8080.
+
+## Screenshots
+
+> Representative previews generated from the app's real layout, colour tokens, and English labels. Actual screens vary slightly with device size and font scaling.
+
+| Setup | Remote |
+|:---:|:---:|
+| <img src="docs/screenshots/setup.png" width="300" alt="Setup screen: SSDP discovery, manual IP, and pairing code"> | <img src="docs/screenshots/remote.png" width="300" alt="Remote tab: power, direction pad, volume, channel, media, and colour keys"> |
+| **Setup** — discover TVs with SSDP, continue with a manual IP, and pair with the 6-digit code. | **Remote** — power, D-pad, volume, channel, mute, media transport, and colour keys. |
+| <img src="docs/screenshots/touchpad.png" width="300" alt="Pointer tab: touchpad with click and scroll buttons"> | <img src="docs/screenshots/numbers.png" width="300" alt="Numbers tab: channel number pad and channel shortcuts"> |
+| **Pointer** — drag to move the cursor, tap to click, and scroll with dedicated keys. | **Numbers** — direct channel entry, previous channel, channel list, and guide. |
 
 ## Highlights
 
