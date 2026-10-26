@@ -18,14 +18,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/cmtrkr83/LG-TV-Kumandasi/releases/latest"><img src="https://img.shields.io/github/v/release/cmtrkr83/LG-TV-Kumandasi?style=flat-square&color=22c55e" alt="Latest release"></a>
-  <a href="https://github.com/cmtrkr83/LG-TV-Kumandasi/releases/latest/download/netcast-remote.apk"><img src="https://img.shields.io/badge/Android-APK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android APK"></a>
+  <a href="https://github.com/cmtrkr83/LG-TV-Remote/releases/latest"><img src="https://img.shields.io/github/v/release/cmtrkr83/LG-TV-Remote?style=flat-square&color=22c55e" alt="Latest release"></a>
+  <a href="https://github.com/cmtrkr83/LG-TV-Remote/releases/latest/download/netcast-remote.apk"><img src="https://img.shields.io/badge/Android-APK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android APK"></a>
   <a href="#supported-tvs"><img src="https://img.shields.io/badge/LG%20NetCast-3.0%20%7C%204.0-0ea5e9?style=flat-square" alt="LG NetCast 3.0 and 4.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/cmtrkr83/LG-TV-Kumandasi/releases/latest/download/netcast-remote.apk"><img src="https://img.shields.io/badge/Download%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Download the Android APK"></a>
+  <a href="https://github.com/cmtrkr83/LG-TV-Remote/releases/latest/download/netcast-remote.apk"><img src="https://img.shields.io/badge/Download%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Download the Android APK"></a>
   <a href="#build-from-source"><img src="https://img.shields.io/badge/Build%20from%20source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Build from source"></a>
 </p>
 
@@ -71,13 +71,13 @@ The app looks for the TV's ROAP service on port **8080** and accepts SSDP respon
 
 ### Android
 
-1. **[Download the latest APK](https://github.com/cmtrkr83/LG-TV-Kumandasi/releases/latest/download/netcast-remote.apk)** (latest release).
+1. **[Download the latest APK](https://github.com/cmtrkr83/LG-TV-Remote/releases/latest/download/netcast-remote.apk)** (latest release).
 2. Open the file on your phone. If Android asks, allow installs from your browser or file manager.
 3. Connect the phone and the TV to the **same Wi-Fi network**.
 4. Open **NetCast Kumanda**. Tap **Scan for TVs**, choose your TV, then tap **Request code from TV**.
 5. Enter the **6-digit pairing code** shown on the television. The remote opens when pairing succeeds.
 
-The Android package is `com.cmtrkr83.netcastremote`. The APK is distributed through [GitHub Releases](https://github.com/cmtrkr83/LG-TV-Kumandasi/releases).
+The Android package is `com.cmtrkr83.netcastremote`. The APK is distributed through [GitHub Releases](https://github.com/cmtrkr83/LG-TV-Remote/releases).
 
 ### If the TV is not discovered
 
@@ -126,8 +126,8 @@ NetCast uses cleartext HTTP on the local network, so the Android build enables `
 ### Setup
 
 ```bash
-git clone https://github.com/cmtrkr83/LG-TV-Kumandasi.git
-cd LG-TV-Kumandasi
+git clone https://github.com/cmtrkr83/LG-TV-Remote.git
+cd LG-TV-Remote
 corepack enable
 pnpm install --frozen-lockfile
 pnpm run verify
