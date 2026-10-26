@@ -12,6 +12,7 @@ node_modules
 **/.netcast-remote-build.lock
 **/*.tsbuildinfo
 README.md
+LICENSE
 pnpm-lock.yaml
 docs
 artifacts/api-server/src
