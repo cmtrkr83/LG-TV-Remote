@@ -13,7 +13,10 @@ export function shouldShowRemoteShell(
   return status === "ready" && hasStoredHost;
 }
 
-export function delayWithAbort(ms: number, signal?: AbortSignal): Promise<void> {
+export function delayWithAbort(
+  ms: number,
+  signal?: AbortSignal,
+): Promise<void> {
   if (signal?.aborted) return Promise.resolve();
   return new Promise((resolve) => {
     const timeout = setTimeout(() => {
